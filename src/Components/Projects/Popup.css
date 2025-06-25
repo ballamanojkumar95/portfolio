@@ -1,0 +1,53 @@
+.modal {
+    font-size: 14px;
+    text-align: center;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    color: #fb9718;
+    font-weight: 500;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: left;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 0px 1px;
+    line-height: 25px;
+    right: -10px;
+    top: -10px;
+    font-size: 21px;
+    height: 30px;
+    width: 30px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+  .card:hover{
+    /* background: radial-gradient(#ffffff, #9f9f9f00); */
+    background: #f1f1f1;
+    box-shadow: rgb(0 162 181) 0px 3px 8px;
+}
+.card:hover button{
+  border: 1px solid #000;
+  color:#000
+
+}
+  @media screen and (max-width:768px) {
+      .popup-content{
+        width: 90% !important;
+      }
+  }

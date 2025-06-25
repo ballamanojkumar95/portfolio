@@ -1,0 +1,35 @@
+.boxshow{
+    box-shadow:  rgb(76 130 171 / 81%) 0px 1px 2px 0px, rgb(55 99 133 / 83%) 0px 1px 3px 1px;
+}
+
+/* .before-animation {
+   position: relative;
+   overflow: hidden;
+} */
+
+  /* .hover-animation::before{
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -45%;
+    width: 50%;
+    height: 300%;
+    background: linear-gradient(120deg, transparent, rgba(255, 215, 0, 0.3), transparent);
+    transform: rotate(25deg);
+    z-index: 6;
+  }
+  .hover-animation:hover::before{
+    animation: shine 0.8s forwards;
+  }
+
+  @keyframes shine{
+    0% {
+        top: -100%;
+        left: -45%;
+    }
+    
+    100% {
+        top: 100%;
+        left: 120%;
+    }
+  } */
