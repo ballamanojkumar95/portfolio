@@ -15,7 +15,7 @@ const HeroText = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "I am Frontend <span class='text-orange'>Web developer...</span>"
+        "<span class='text-[15px]'>I am Frontend <span class='text-orange '>Web developer.</span></span>"
       ],
       typeSpeed: 30,
       backSpeed: 40,
