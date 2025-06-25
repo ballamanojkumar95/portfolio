@@ -9,6 +9,7 @@ import "reactjs-popup/dist/index.css";
 import PopupOpen from "./Popup";
 function SingleProject({ name, year, image, link, align, desc }) {
   const [poupOpen, setOpen] = useState(false);
+  const [bgValue,setBgValue] = useState()
   const handlePop = () => {
     setOpen(!poupOpen);
   };
@@ -24,21 +25,20 @@ function SingleProject({ name, year, image, link, align, desc }) {
     //         <img src={image} alt="" className='w-full h-full' />
     //     </div>
     // </div>
-    <div>
-      <div className="card transform transition duration-500 
-                                hover:-translate-y-3  max-h-[500px] min-h-[200px] min-w-[200px] border border-1 border-[#e3e1e1]   rounded-xl">
-        <div className={`${name=="Smart Meters" ? 'bg-[#fff] rounded-[10px]':''} max-h-[220px]  max-w-[400px] mx-auto w-full text-center`}>
-          <img className="rounded-xl mx-auto h-[120px]" src={image} alt="" />
+    <>
+      <div className="card group h-[235px] relative sm:w-[300px] border border-1 border-[#474747]   rounded-xl">
+        <div className={ `${name =='Smart Meters' ? 'bg-[#fff] rounded-[12px]': name==='Ford'?'bg-[#000a5c] rounded-[12px]':name==='Manulife'?'bg-[#006a3f] rounded-[12px]':name==='Health Care'?'bg-[#000] rounded-[12px]':''} text-center`}>
+          <img  className="rounded-xl w-[50%] mx-auto h-[120px]" src={image} alt="" />
         </div>
-        <div className="text-center mt-2 p-2">
-          <strong className="text-orange">
+        <div className="text-center mt-2 p-2 absolute bottom-0 w-full">
+          <strong className="text-orange group-hover:text-[#fff]">
             <h5>{name}</h5>
           </strong>
-          <button className="border border-[#fff] text-white hover:bg-orange hover:border-0 text-sm rounded-xl p-1 w-full mt-2" onClick={() => setOpen(!poupOpen)}>View Details</button>
+          <button className="border border-[#474747] text-white hover:bg-orange hover:border-0 text-sm rounded-xl p-1 w-full mt-2" onClick={() => setOpen(!poupOpen)}>View Details</button>
           {poupOpen ? <PopupOpen handleClose={handlePop} popUpData={desc} align={align} title={name} /> : ""}
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

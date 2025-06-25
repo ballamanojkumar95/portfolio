@@ -38,8 +38,10 @@
   }
   .card:hover{
     /* background: radial-gradient(#ffffff, #9f9f9f00); */
-    background: #f1f1f1;
+    /* background: #f1f1f1; */
     box-shadow: rgb(0 162 181) 0px 3px 8px;
+    background: #FB9718;
+background: linear-gradient(93deg,rgba(251, 151, 24, 1) 0%, rgba(21, 209, 233, 1) 50%, rgba(237, 221, 83, 1) 100%);
 }
 .card:hover button{
   border: 1px solid #000;

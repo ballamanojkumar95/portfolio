@@ -31,7 +31,7 @@ function TimelineExpe() {
     <h3 className="vertical-timeline-element-title"><strong className='font-body' >Role:</strong> Software Engineer</h3>
     <h4 className="vertical-timeline-element-subtitle"><strong className='font-body'>Company:</strong> Cognizant Technology Solutions</h4>
     <p>
-      User Experience, Visual Design, Project Management, Team Leading
+      User Experience, Visual Design, Project Management, Clean Code, Responsive Web Design
     </p>
   </VerticalTimelineElement>
             </motion.div>
@@ -44,10 +44,10 @@ function TimelineExpe() {
     iconStyle={{ background: '#009fb3', color: '#fff' }}
     icon={<RiOrganizationChart />}
   >
-    <h3 className="vertical-timeline-element-title"><strong className='font-body' >Role:</strong> HTML Intigrator</h3>
+    <h3 className="vertical-timeline-element-title"><strong className='font-body' >Role:</strong> HTML Integrator</h3>
     <h4 className="vertical-timeline-element-subtitle"><strong className='font-body'>Company:</strong> Vsplash Tech Labs</h4>
     <p>
-      User Experience, Visual Design, Responsive Web Design
+      Fixing bugs, Implement new Features, User Experience, Visual Design, Responsive Web Design
     </p>
   </VerticalTimelineElement>
 
