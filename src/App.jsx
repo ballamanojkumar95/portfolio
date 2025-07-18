@@ -9,7 +9,7 @@ import SkillsMain from './Components/Skills/SkillsMain'
 import SubSkills from './Components/Skills/SubSkills'
 import ExperienceMain from './Components/Experience/ExperienceMain'
 import ProjectsMain from './Components/Projects/ProjectsMain'
-import Contactmain from './Components/ContactMe/Contactmain'
+import ContactMain from './Components/ContactMe/ContactMain'
 import FooterMain from './Components/Footer/FooterMain'
 import TimelineExpe from './Components/TimeLine/timelineExpe'
 import SubHero from './Components/SubHero/SubHero'
@@ -31,7 +31,7 @@ function App() {
    <SubSkills/>
    <ExperienceMain/>
    <ProjectsMain/>
-   <Contactmain/>
+   <ContactMain/>
    <FooterMain/>
   
   </main>

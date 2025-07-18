@@ -6,6 +6,7 @@ import manulife from "../../../public/images/manulife.jpg";
 import ford from "../../../public/images/ford.jpg";
 import energymeter from "../../../public/images/Smart-meters.jpg";
 import medbleze from "../../../public/images/medbleze.jpg";
+import RecentProjects from "../RecentProjects/RecentProjects";
 
 const projects = [
   {
@@ -61,6 +62,7 @@ function ProjectsMain() {
           );
         })}
       </div>
+      <RecentProjects/>
     </div>
   );
 }

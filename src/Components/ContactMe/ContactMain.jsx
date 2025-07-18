@@ -3,7 +3,7 @@ import ContactHeader from './ContactHeader'
 import ContactText from './ContactText'
 import ContactImage from './ContactImage'
 
-function Contactmain() {
+function ContactMain() {
   return (
     <div id='contact' className='max-w-[1200px] mx-auto px-4'>
         <ContactHeader/>
@@ -16,4 +16,4 @@ function Contactmain() {
   )
 }
 
-export default Contactmain
+export default ContactMain
